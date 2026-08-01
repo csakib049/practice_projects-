@@ -5,11 +5,18 @@
 }
 
 body{
-    display: flex;
+     display: flex;
+     flex-direction: column;
     justify-content: center;
+      
 }
 
 
 #profile_card{
     text-align: center;
+}
+
+#image{
+    height: 300px;
+    
 }
