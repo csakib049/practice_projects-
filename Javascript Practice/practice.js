@@ -1,32 +1,41 @@
-// let btn1 = document.querySelector("#btn1");
+// // let div1 = document.querySelector("#div1");
 
-
-// console.log(btn1);
-// console.dir(btn1);
-
-// console.log(btn1.innerText);
+// // console.log(div1);
 
 
 
+// // console.log(div1.setAttribute("name","mojo"));
 
-// // let div1=document.querySelector("#div1");
+ 
 
-// // console.log(div1.innerHTML);
+// let div1 = document.querySelector("#div1");
 
-// // console.log(div1.innerText);
+// console.log(div1);
 
-
-let div1= document.querySelector("#div1");
-
-console.log(div1.innerHTML);
-console.log(div1.innerText);
+// console.log(div1.setAttribute("name","mojo_Sakib"));
 
 
 
-let nav= document.querySelector("#nav");
+// let newBtn = document.createElement("button");
+
+// newBtn.innerText="chipoo"
+
+// console.log(newBtn);
 
 
-nav.innerText = nav.innerText + " sakib sakib ...";
 
 
-console.log(nav.innerText);
+
+
+let newbtn = document.createElement("button");
+
+newbtn.innerText="sakibb";
+
+console.log(newbtn);
+
+
+
+let div1 = document.querySelector("#div1")
+
+
+div1.append(newbtn);
