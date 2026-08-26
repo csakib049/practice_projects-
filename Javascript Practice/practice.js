@@ -27,15 +27,40 @@
 
 
 
-let newbtn = document.createElement("button");
+// let newbtn = document.createElement("button");
 
-newbtn.innerText="sakibb";
+// newbtn.innerText="sakibb";
 
-console.log(newbtn);
-
-
-
-let div1 = document.querySelector("#div1")
+// console.log(newbtn);
 
 
-div1.append(newbtn);
+
+// let div1 = document.querySelector("#div1")
+
+
+// div1.append(newbtn);
+
+
+// let newbtn = document.createElement("button");
+
+// newbtn.innerText = "dabadooo";
+
+// console.log(newbtn);
+
+// let div1 = document.querySelector("#div1");
+
+// div1.prepend(newbtn);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
