@@ -6,7 +6,7 @@
 
 // // console.log(div1.setAttribute("name","mojo"));
 
- 
+
 
 // let div1 = document.querySelector("#div1");
 
@@ -54,13 +54,30 @@
 
 
 
+// let btn1 = document.querySelector("#btn1");
+
+// btn1.onclick=()=>{
+//     console.log("btn1 was clicked ");
+
+// }
+
+
+// let div1 = document.querySelector("#box1");
+
+// div1.onmouseover = (e)=>{
+//     console.log(e);
+
+//     console.log("hoveringg..")
+// }
 
 
 
+console.log(age);;
+
+age =23;
+
+console.log(age);
 
 
-
-
-
-
-
+// when ur code knows that u have used let or const but before 
+// comming into the declaration line u can not use this variable ..
