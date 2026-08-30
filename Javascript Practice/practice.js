@@ -72,12 +72,16 @@
 
 
 
-console.log(age);;
 
-age =23;
+function calculate(a,b){
+    return a+b;
+}
 
-console.log(age);
 
 
-// when ur code knows that u have used let or const but before 
-// comming into the declaration line u can not use this variable ..
+
+let a = 234;
+
+const b =234;
+
+console.log(calculate(a,b));
