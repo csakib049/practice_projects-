@@ -31,3 +31,11 @@ console.log(secret);
 })("nazifa");
 
 
+
+
+
+(function (){
+    let secret = 23;
+    console.log(secret);
+})(); 
+
