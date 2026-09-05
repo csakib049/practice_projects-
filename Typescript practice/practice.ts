@@ -1,26 +1,68 @@
-let age:number = 23.34;
-let username:string ="sakib";
-let collete :string= "BUBT";
+let sakib : null | undefined =null  ;
 
-console.log(age);
-console.log(username);
-console.log(collete);
-
-
-let data : null = null;
-
-console.log(data);
-
-
-let a : unknown = 23;
+console.log(sakib);
 
 
 
-let direction :"up" | "down";
+let b : number[]=[1,2,34,5];
 
-direction = "down";
 
-console.log(direction);
+let c : (string | number)[]=["asdf","asdf","fdas", 23];
+
+
+for(const cc of c)console.log(cc);
+
+
+
+
+
+let user : [number, string , boolean] = [1,"asdf",true];
+
+
+for(const u of user)console.log(u);
+
+
+
+let s:(string|number)[]=["asdf",3232];
+
+
+
+
+
+
+
+
+
+
+type User={
+    name:string,
+    age:number,
+    address:string
+};
+
+
+const user1:User = {
+    name:"sakib",
+    age:23,
+    address:"asdfsdf"
+};
+
+
+console.log(user1.name);
+
+
+let saki:any = 23;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
