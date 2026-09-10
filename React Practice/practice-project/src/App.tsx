@@ -1,18 +1,32 @@
-import Card  from './component/card'
+import React from 'react'
+import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Notfound from './pages/Notfound'
+import Product from './pages/Product'
+import Man from './pages/Man'
+import Women from './pages/Women'
 
 const App = () => {
-
-
-
   return (
     <div>
-      <h1>sakib</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti rerum expedita possimus? Maxime delectus voluptas, voluptates placeat excepturi at, iste id facere eum neque consectetur asperiores, autem quia dolore.</p>
+      <Navbar/>
 
-      <Card user="sakib" age = {25}/>
-      <Card user="shahriar" age = {23}/>
+      <Routes>
+        <Route path='/' element= {<Home/>}/>
+        <Route path='/about' element = {<About/>}/>
+        <Route path='/contact' element = {<Contact/>}/>
+        <Route path='*' element ={<Notfound/>}/>
 
-    </div> 
+        <Route path='/product' element={<Product/>}>
+           <Route path='men' element={<Man/>}/>
+           <Route path='women' element={<Women/>}/>
+        </Route>
+      </Routes>
+            
+    </div>
   )
 }
 
