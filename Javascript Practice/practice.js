@@ -58,3 +58,10 @@ console.log(secret);
     console.log(secret);
     
 })(sakib);
+
+
+(fucntion sakib(ss)=>{
+    let secret = "sasdlkfjas;dlf";
+
+    console.log(secret);
+})();

@@ -3,6 +3,17 @@ import Card  from './component/card'
 const App = () => {
 
 
+  function btnclicked(){
+    console.log("btn is clicked ...");
+    
+  }
+
+
+  function sakib(elem){
+    console.log(elem);
+    
+  }
+
 
   return (
     <div>
@@ -11,6 +22,16 @@ const App = () => {
 
       <Card user="sakib" age = {25}/>
       <Card user="shahriar" age = {23}/>
+
+
+      <button onMouseEnter={btnclicked}>click me </button>
+
+
+
+      <input onChange={(elem)=>{
+        sakib(elem.target.value)
+      }}type="text" placeholder='write here ' />
+
 
     </div> 
   )
