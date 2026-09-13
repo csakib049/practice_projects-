@@ -65,3 +65,8 @@ console.log(secret);
 
     console.log(secret);
 })();
+
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
+}
