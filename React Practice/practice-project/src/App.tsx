@@ -1,6 +1,8 @@
-import Card  from './component/card'
+import College from './College'
+import { subjectContext } from './ContextData'
 
 const App = () => {
+<<<<<<< HEAD
 
 
   function btnclicked(){
@@ -34,6 +36,15 @@ const App = () => {
 
 
     </div> 
+=======
+  return (
+    <div>
+      <subjectContext.Provider value='shahriar'>
+        <College/>
+      </subjectContext.Provider>
+      
+    </div>
+>>>>>>> 1007db9a7835bb163fe3bdf47393ddc3b04d6b94
   )
 }
 
