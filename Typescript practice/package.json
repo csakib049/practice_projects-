@@ -1,5 +1,15 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
   "dependencies": {
     "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.1"
   }
 }
