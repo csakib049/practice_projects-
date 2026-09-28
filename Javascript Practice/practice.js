@@ -69,4 +69,52 @@ console.log(secret);
 
 function  add(a:nunber , b: number):nunber{
     return a+b;
+}(function sakib(s){
+    let secret = "JL;kajsdf";
+    console.log(secret);
+    
+})(sakib);
+
+
+(fucntion sakib(ss)=>{
+    let secret = "sasdlkfjas;dlf";
+
+    console.log(secret);
+})();
+
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
+}(function sakib(s){
+    let secret = "JL;kajsdf";
+    console.log(secret);
+    
+})(sakib);
+
+
+(fucntion sakib(ss)=>{
+    let secret = "sasdlkfjas;dlf";
+
+    console.log(secret);
+})();
+
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
+}(function sakib(s){
+    let secret = "JL;kajsdf";
+    console.log(secret);
+    
+})(sakib);
+
+
+(fucntion sakib(ss)=>{
+    let secret = "sasdlkfjas;dlf";
+
+    console.log(secret);
+})();
+
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
 }
