@@ -119,3 +119,21 @@ function  add(a:nunber , b: number):nunber{
 
 
 
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
+}(function sakib(s){
+    let secret = "JL;kajsdf";
+    console.log(secret);
+    
+})(sakib);
+
+
+function  add(a:nunber , b: number):nunber{
+    return a+b;
+}(function sakib(s){
+    let secret = "JL;kajsdf";
+    console.log(secret);
+    
+})(sakib);
+
