@@ -1,21 +1,27 @@
-const person = {
-    name:"sakib",
-    age:13,
-    contact:"018234044694"
+const p1 = {
+    fname:"sakib",
+    lname:"chowdhury"
+}
+
+const p2 = {
+    age:23,
+    ID:39,
+    __proto__:p1,
 }
 
 
-const person2 = {
-    id:390,
-    address:"asdf",
-    __proto__:person
-}
-
-const person3 = {
-    city:"dhaka",
-    thana:"rupnogor",
-    __proto__:person2
+const p3 = {
+    bmi:23,
+    __proto__:p2
 }
 
 
-console.log(person3.age);
+const mama = p2.lname;
+
+console.log(mama);
+
+
+
+let name = "sakib";
+
+const a = 23;
