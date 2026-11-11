@@ -1,27 +1,13 @@
-const p1 = {
-    fname:"sakib",
-    lname:"chowdhury"
+
+
+for(var i = 0 ;i<10;i++){
+    setTimeout(()=> console.log(i),0);
 }
 
-const p2 = {
-    age:23,
-    ID:39,
-    __proto__:p1,
+for(var i = 0 ;i<10;i++){
+    setTimeout(()=> console.log(i),0);
 }
 
-
-const p3 = {
-    bmi:23,
-    __proto__:p2
+for(var i = 0 ;i<10;i++){
+    setTimeout(()=> console.log(i),0);
 }
-
-
-const mama = p2.lname;
-
-console.log(mama);
-
-
-
-let name = "sakib";
-
-const a = 23;
